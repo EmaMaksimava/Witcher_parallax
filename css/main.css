@@ -29,4 +29,13 @@ html, body {
   position: absolute;
   inset: 0;
   background-size: cover;
+  will-change: transform;
+}
+
+.slider__item {
+  overflow: hidden;
+}
+
+.slider__wrapper {
+  will-change: transform;
 }
