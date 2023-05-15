@@ -56,3 +56,31 @@ html, body {
   transform-style: preserve-3d;
   transition: var(--transition)!important;
 }
+
+.text {
+  color: antiquewhite;
+  font-family: edelsans_regular;
+}
+
+.text h1 {
+  font-size: 3rem;
+  position: absolute;
+  bottom: 17%;
+  right: 25%;
+}
+
+.text h2 {
+  color: rgb(222, 238, 252);
+  font-family: edelsans_ultralight;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 8%;
+  right: 8%;
+}
+
+.text h2 a {
+  text-decoration: none;
+  color: rgb(222, 238, 252);
+  cursor: pointer;
+
+}
