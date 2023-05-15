@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: edelsans_regular;
+  src: url('../fonts/edelsans_regular.otf');
+}
+
+@font-face {
+  font-family: edelsans_ultralight;
+  src: url('../fonts/edelsans_ultralight.otf');
+}
+
+body {
+  font-family: edelsans_ultralight;
+}
