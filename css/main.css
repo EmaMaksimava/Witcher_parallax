@@ -14,6 +14,19 @@
   src: url('../fonts/edelsans_ultralight.otf');
 }
 
-body {
+html, body {
   font-family: edelsans_ultralight;
+  height: 100%;
+  background-color: #000;
+  color: #fff;
+}
+
+.slider {
+  height: 100%;
+}
+
+.slider__layer {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
 }
